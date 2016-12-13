@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>upload article</title>
+    <!-- <script type="text/javascript" src="js/plugins/jquery-3.1.1.min.js"></script> -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.0.js"></script>
+    <!-- <script type="text/javascript" src="js/plugins/script.js"></script> -->
+    <script type="text/javascript" src="js/plugins/jquery.cookie.js"></script>
+    <!-- <script type="text/javascript" src="js/plugins/fileinput.min.js"></script> -->
+    <script type="text/javascript" src="js/plugins/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ajaxfileupload.js"></script>
+      <script type="text/javascript" src="js/plugins/sweetalert-dev.js"></script>
+    <script type="text/javascript" src="js/custom/upload.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/fileinput.min.css"/> -->
+<!--     <script type="text/javascript"> 
+        $('input[id=lefile]').change(function(){  
+            // alert($(this).val());
+            alert("adadjkasjd");
+        // $('#photoCover').val($(this).val());  
+        });  
+    </script> 
+ -->
+ </head>
+<body>  
+       <div class="crumb-wrap">
+                <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>Welcome to Tsing Dev Data Management System</span>
+                </div>
+        </div>
+        <div class="result-content">
+            <!-- <form action="/jscss/admin/design/add" method="post" id="myform" name="myform" enctype="multipart/form-data"> -->
+                <table class="insert-tab" width="100%">
+                    <tbody><tr>
+                           <th width="120">Theme Option:</th>
+                            <td>
+                                <select name="search-sort" class="select-tab" id="selectTheme">
+                                    <option value="1">Philosophy</option>
+                                    <option value="2">History</option>
+                                    <option value="3">Biography</option>
+                                    <option value="4">Psychology</option>
+                                    <option value="5">Sociology</option>
+                                    <option value="6">Science</option>
+                                    <option value="7">Religion</option>
+                                    <option value="8">Literature</option>
+                                    <option value="9">Humorous</option>
+                                    <option value="10">Sports</option>
+                                    <option value="11">Arts</option>
+                                    <option value="12">Travel</option>
+                                    <option value="13">Recommend</option>
+                                    <option value="14">Volunteer</option>
+                                    <option value="15">Acitivity</option>
+                                </select>   
+                            </td>
+                        </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>Title</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Author:</th>
+                                <td><input class="common-text" id="author" size="50" value="admin" type="text"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>Theme Image</th>
+                                <td>
+                                <!-- <input id="input-1" type="file" class="file" > -->
+                                 <input name="upload-picture" id="upload-picture" type="file" accept="image/gif,image/jpeg,image/png"> 
+                                    <!-- <label class="control-lavel">Select File</label> -->
+                                    <!-- <input id="input-1" type="file" class="file"> -->
+                              <!--       <input id="lefile" type="file" style="display:none">  
+                                    <div class="input-append">  
+                                        <input id="photoCover" class="input-large" type="text" style="height:20px;">  
+                                        <a class="btn" onclick="$('input[id=lefile]').click();">Browse</a>  
+                                    </div> 
+ -->
+                                </td>
+                            </tr>
+                            <tr> 
+                                <th><i class="require-red">*</i>Article Keywords:</th> 
+                                <td> 
+                                    <input class="common-text required" id="article-tag" name="article-tag" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                              <tr>
+                                <th><i class="require-red">*</i>Theme Article</th>
+                                <td>
+                                    <input name="upload-article" id="upload-article" type="file" accept="text/plain,application/pdf"> 
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Content:</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10" value="" readonly="true">Temporarily not opened!</textarea></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" id="uploadSub" value="Upload" type="button">
+                                    <input class="btn btn6" id="getArticle" value="Preview" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                <!-- </form> -->
+            </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

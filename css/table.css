@@ -1,0 +1,65 @@
+html,body,div,span,iframe,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:15px;}
+body{line-height:1;color:black;background:white}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:normal;}
+
+/*a{color:#0A93CC;font-size: 12px;}#content */
+a:link{text-decoration: none;}#content 
+a:hover{color:#000;text-decoration:underline}#content em, #content em
+
+/*span{font-size:16px}#content */
+/*.bloc:first-child{margin-top:84px}#content h1*/
+
+.bloc{margin:0px 0px 0px;background-color:#FFF;overflow:hidden;}#content
+
+.title{height:40px;position:relative;background:url(../images/bloctitle.png);line-height:34px;padding:0
+10px;font-size:16px;font-weight:bold;color:#808080;}#content .bloc .title
+
+
+ol{list-style:decimal}#content .bloc
+.content{padding:10px;background-color:#F7F7F7}#content .title
+
+
+img{display:block;margin:0
+auto 10px;max-width:108px;max-height:48px}#content
+table{width:100%;text-align:middle}#content
+
+th{border-bottom:1px solid #BDBDBD;padding-left: 10px;}#content table thead tr
+th{font-weight:bold;color:#00bfff;font-size:1.2em;padding-left: 10px;padding-bottom:2px}#content table thead tr th
+a{color:#151515}#content table tbody tr
+
+td{height:40px;text-align:middle;vertical-align:middle;border-bottom:1px solid #DADADA;padding-left: 10px;border-top:1px solid #FFF}#content table tbody tr:nth-child(2n+1) td{background-color:#F0F0F0}#content table tbody tr:hover
+td{background-color:#EAEAEA;border-bottom:1px solid #CACACA;border-top:1px 	 solid #E2E2E2}#content table tbody tr
+td.actions{text-align:middle;width:70px}#content table.noalt tbody tr
+td{background-color:transparent !important;border-bottom:1px solid #DADBDD}#content table.noborder tbody tr
+td{border:none;}#content table tbody tr td
+
+img{padding-right:20px}#content
+.pagination{text-align:right;margin:30px
+30px 70px 20px}#content .pagination
+
+a{display:inline-block;height:20px;width:20px;line-height:20px;margin:0
+1px 0 0;border:1px
+solid #DAD9D9;text-align:center;text-decoration:none;color:#646161;border-radius:3px 3px 3px 3px}#content .pagination a.next, #content .pagination
+a.prev{border:1px
+solid #FFF}#content .pagination a.current, #content .pagination a:hover{background:url(../images/buttons.png) left -68px;border:1px
+solid #3580A9;-moz-text-shadow:0px -1px 0px #2C6AA3;-webkit-text-shadow:0px -1px 0px #2C6AA3;-o-text-shadow:0px -1px 0px #2C6AA3;text-shadow:0px -1px 0px #2C6AA3;color:#D4E6EF;font-weight:bold
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

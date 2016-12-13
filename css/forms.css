@@ -1,0 +1,38 @@
+html,body,div,span,iframe,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:15px;}
+body{line-height:1;color:black;background:white}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:normal;}
+
+/*a{color:#0A93CC;font-size: 12px;}#content */
+a:link{text-decoration: none;}#content 
+a:hover{color:#000;text-decoration:underline}#content em, #content em
+
+/*span{font-size:16px}#content */
+/*.bloc:first-child{margin-top:84px}#content h1*/
+
+.bloc{margin:0px 0px 0px;background-color:#FFF;overflow:hidden;}#content
+
+.title{height:40px;position:relative;background:url(../images/bloctitle.png);line-height:34px;padding:0
+10px;font-size:16px;font-weight:bold;color:#808080;}#content .bloc .title
+ol{list-style:decimal}#content .bloc
+
+ .titleInput{ 
+ 		
+		line-height:18px;
+	 	width:300px;HEIGHT: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

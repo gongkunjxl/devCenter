@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tsing Dev Center Management System</title>
+    <script type="text/javascript" src="js/plugins/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/custom/commentList.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+</head>
+<body> 
+    <div class="crumb-wrap">
+                <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>Welcome to Tsing Dev Data Management System</span>
+                </div>
+    </div>
+    <div class="search-wrap">
+            <!-- <form action="#" id="searchForm" method="post"> -->
+                <table class="search-tab">
+                    <tr>
+                        <th width="120">Theme Option:</th>
+                            <th>
+                                <select name="search-sort" class="select-tab" id="selectTheme">
+                                    <option value="100">All</option>
+                                    <option value="1">Philosophy</option>
+                                    <option value="2">History</option>
+                                    <option value="3">Biography</option>
+                                    <option value="4">Psychology</option>
+                                    <option value="5">Sociology</option>
+                                    <option value="6">Science</option>
+                                    <option value="7">Religion</option>
+                                    <option value="8">Literature</option>
+                                    <option value="9">Humorous</option>
+                                    <option value="10">Sports</option>
+                                    <option value="11">Arts</option>
+                                    <option value="12">Travel</option>
+                                    <option value="13">Recommend</option>
+                                    <option value="14">Volunteer</option>
+                                    <option value="15">Acitivity</option>
+                                </select>
+                            </th>
+                            <td><input class="btn-tab" id="searchSubmit"  value="Submit" type="button"></td>
+                            <!-- <td><input type="checkbox" id="checkId"  onclick="showFuck();" value="boxxo" name="checkId"></td> -->
+                        </tr>
+                    </table>
+                <!-- </form> -->
+            </div>
+    </div>
+      <!-- <div class="result-wrap"> -->
+                <div class="result-content">
+                    <table class="result-tab" id="tableContent" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" id="allBox" onclick="checkALLBox();" type="checkbox"></th>
+                            <th>Title</th>
+                            <th>UserName</th>
+                            <th>Content</th>
+                            <th>Comment Date</th>
+                            <th>Action</th>
+                        </tr>
+                        <tbody id="tbody">
+                            <!-- the table content -->
+                        </tbody>
+                 
+                    </table>
+                    <div class="list-page"> </div>
+                </div>
+        <!-- </div> -->
+     </div>
+</body>
+</html>
